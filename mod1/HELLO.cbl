@@ -7,7 +7,7 @@
 
        PROCEDURE DIVISION.                                     
 
-      * SENDING DATA TO SCREEN
+      * SENDING  DATA TO SCREEN
 
            MOVE 'HELLO WORLD' TO WS-MESSAGE                
            EXEC CICS SEND TEXT                             
